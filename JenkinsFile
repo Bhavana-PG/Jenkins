@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Hi') {
             steps {
                 echo 'Hello World'
                 bat 'dir'
@@ -11,17 +11,3 @@ pipeline {
         }
     }
 }
-=======
-pipeline {
-    agent any
-
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-                bat 'dir'
-            }
-        }
-    }
-}
->>>>>>> 04f04455e2f41d28b11b3e884679d83da9efae62
